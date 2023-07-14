@@ -248,7 +248,7 @@ section {
 
 }
 .service-wrapper .row2 {
-    margin: 50px;
+    margin: 80px;
     background-color: var(--main-color);
     color: #fff;
     display: flex;
@@ -277,7 +277,7 @@ section {
     left: 0 ;
     width: 100%;
     height: 120%;
-    background-color: rgb(255, 166, 0);
+    background-color: var(--second-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,10 +290,119 @@ section {
     transition: 0.4s  ease-in-out;
 }
 .btn-learn a {
-    color: #fff;
+    color: var(--third-color);
 }
 
 /* Service End */
+
+/* Product Start */
+.product .product-wrapper {
+    margin: auto;
+}
+.product-wrapper .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row1 .label-product {
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--second-color);
+}
+.row1 .heading-product {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    color: black;
+    margin-top: 10px;
+}
+.row1 .toggle-slider i {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.product-wrapper .row2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.product-wrapper .card-product {
+    position: relative;
+    width: 400px;
+    border-radius: 20px;
+    overflow-y: hidden;
+}
+.product-wrapper .card-product img {
+    border-radius: 20px;
+}
+.row2 .detail-product {
+    background-color: #ffffff63;
+    position: absolute;
+    bottom: -50%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid white;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.171);
+    transition: 0.5s ease-in-out;
+}
+.card-product:hover .detail-product {
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+.detail-product .category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category .label-category {
+    padding: 5px 20px;
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-radius: 5px;
+}
+.category .price {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-product .title-card h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color: #4a4a4a;
+}
+.detail-product .review {
+    display: flex;
+    gap: 10px;
+}
+.review i {
+    color: yellow;
+}
+.detail-product .body-card {
+    margin: 25px 0;
+}
+.detail-product .btn-product {
+    background-color: var(--second-color);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+.btn-product a {
+    color: var(--third-color);
+}
+
+/* Product End */
 @media screen and (max-width: 991px) {
     .navbar .nav-wrapper {
         padding: 0 20px;
