@@ -90,7 +90,7 @@ section {
 /* Home Start */
 .home {
     margin-top: 110px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 .home .home-wrapper {
     margin: auto;
@@ -138,6 +138,80 @@ section {
     font-weight: 700;
     color: var(--main-color);
 }
+.content-left .form-panel {
+    position: relative;
+    width: 640px;
+    height: 110px;
+    background-color: var(--second-color);
+    border-radius: 70px;
+    margin: 50px;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-panel img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.form-panel .form-title {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--main-color);
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0;
+
+}
+.form-panel .form-location, .form-date {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.form-panel .form-location .loc, .form-date .cal {
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
+.form-location select {
+    border: none;
+    appearance: none;
+    padding: 5px 8px;
+}
+.form-date input {
+    border: none;
+    padding: 5px 8px;
+}
+/* remove cal logo in input; check 3-36 */
+
+.form-panel .btn-search {
+    background-color: var(--second-color);
+    padding: 15px;
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-left .suggestion {
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.content-right .img-wrapper {
+    max-width: 800px;
+}
+.content-right .img-wrapper img {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .home-wrapper .content-left {
     flex: 0 0 50%;
     /* what does that mean? */
