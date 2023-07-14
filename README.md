@@ -4,7 +4,9 @@
 
 https://www.haikalbintang.site/
 
-https://haikal-bintang.netlify.app/
+https://m-haikal-bintang.netlify.app/
+
+optimal (min-width: 1500px)
 
 ## How to clone repo until running your computer
 
@@ -165,11 +167,11 @@ After you have done **Buy Domain & Set Up Netlify**, now we set up the Custom DN
 
 ![net_adddomain](assets/Screenshot%20(307).png)
 
-**Step 9::** Enter your Custom Domain Name that you bought at **Niagahoster** and Click **Verify**.
+**Step 9:** Enter your Custom Domain Name that you bought at **Niagahoster** and Click **Verify**.
 
 ![net_setupdomain](assets/Screenshot%20(308).png)
 
-**Step 10 :** Done, your domain is now the main domain.
+**Step 10:** Done, your domain is now the main domain.
 
 ![primary_domain](assets/Screenshot%20(308).png)
 
