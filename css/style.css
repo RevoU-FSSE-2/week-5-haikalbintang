@@ -325,6 +325,8 @@ section {
 .product-wrapper .row2 {
     margin-top: 100px;
     margin-bottom: 50px;
+    display: flex;
+    gap: 30px;
 }
 .product-wrapper .card-product {
     position: relative;
